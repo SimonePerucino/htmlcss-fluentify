@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(3, 3, 158) ;
+}
+
+.marg-a{
+    margin: auto;
+}
+
+.cont-img{
+    background-image: url(img/background-header.png);
+    width: 100vh;
+    height: 60vh;
+
+}
+
+.cont-grigio{
+    width: 100vh;
+    height: 20vh;
+    background-color: silver;
+}

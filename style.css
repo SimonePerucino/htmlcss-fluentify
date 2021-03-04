@@ -25,7 +25,9 @@ body{
 .cont-grigio{
     width: 79%;
     height: 20vh;
+    padding: 30px;
     background-color: silver;
+    text-align: center;
 }
 /* contenitore-nav */
 .cont-nav{

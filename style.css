@@ -97,14 +97,21 @@ ul{
 
 }
 
+.cont-int .green-button{
+    padding: 20px 20px;
+}
+
 
 
 .cont-int{
     width: 50%;
     height: 400px;
-    background-color: red;
+    /* background-color: red; */
     transform: translateY(+50%);
-    
+    }
 
-   
-}
+.text-c{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+]

@@ -5,22 +5,106 @@
 }
 
 body{
-    background-color: rgb(3, 3, 158) ;
+    background-color: #0c325a ;
 }
-
+/* definisce margin auto */
 .marg-a{
     margin: auto;
 }
-
+/* inserisce background uomo cravata */
 .cont-img{
     background-image: url(img/background-header.png);
-    width: 100vh;
-    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    width: 79%;
+    height: 70vh;
+    
+
+}
+/* contenitore grigio */
+.cont-grigio{
+    width: 79%;
+    height: 20vh;
+    background-color: silver;
+}
+/* contenitore-nav */
+.cont-nav{
+    width: 60%;
+    height: 5vh;
+    /* background-color: silver; */
+    display: inline-block;
+    
+}
+
+.cont-nav-dex{
+    width: 39.7%;
+    height: 5vh;
+    /* background-color: red; */
+    display: inline-block;
+}
+
+/* rimuove i pallini */
+ul{
+    list-style-type: none;
+}
+/* proprietà scelte nav sinistra */
+.cont-nav ul li,
+.cont-nav ul li a{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left:10px;
+    text-decoration: none;
+    color: white;
+ }
+
+ /* proprità scelte nav destra*/
+
+.cont-nav-dex ul li,
+.cont-nav-dex ul li a{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left:20px;
+    text-decoration: none;
+    color: white;
+ 
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* bottono di login */
+.login-b{
+    color: white;
+    border-color: white;
+    border-style: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+/* proprietà bottoni verdi */
+.green-button{
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(71, 199, 33);
 
 }
 
-.cont-grigio{
-    width: 100vh;
-    height: 20vh;
-    background-color: silver;
+
+
+.cont-int{
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    transform: translateY(+50%);
+    
+
+   
 }

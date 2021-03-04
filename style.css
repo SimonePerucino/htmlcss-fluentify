@@ -11,7 +11,7 @@ body{
 .marg-a{
     margin: auto;
 }
-/* inserisce background uomo cravata */
+/* inserisce background uomo cravata/prima sezione*/
 .cont-img{
     background-image: url(img/background-header.png);
     background-size: cover;
@@ -24,7 +24,7 @@ body{
 /* contenitore grigio */
 .cont-grigio{
     width: 79%;
-    height: 20vh;
+    height: 10vh;
     padding: 30px;
     background-color: silver;
     text-align: center;
@@ -107,7 +107,6 @@ ul{
 
 .cont-int{
     width: 50%;
-    height: 400px;
     /* background-color: red; */
     transform: translateY(+50%);
     }
@@ -116,4 +115,48 @@ ul{
     font-size: 50px;
     color: white;
     margin-bottom: 20px;
-]
+}
+/* contenitore seconda sezione */
+.cont-white{
+    width: 79%;
+    height: 70vh;
+    background-color: white;
+    padding: 30px;
+}
+
+.colonna{
+    width: 33.3vh;
+    height: 100%;
+    display: inline-block;
+    /* background-color: blue; */
+}
+/* contiene l'immagine della colonna */
+.cont-img-colonna{
+    width: 100%;
+    height:250px;
+    /* background-color: brown; */
+}
+
+.cont-img-colonna img{
+    width: 100%;
+    height: 100%;
+}
+
+.testo-verde{
+    color:rgb(71, 199, 33);
+    
+}
+
+/* hr più corto */
+.contenitore-barra-del-porco-demonio{
+    width: 100%;
+    padding: 50px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.width-80{
+    width: 79%;
+}

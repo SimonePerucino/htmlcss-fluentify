@@ -38,7 +38,7 @@ body{
 }
 
 .cont-nav-dex{
-    width: 39.7%;
+    width: 38%;
     height: 5vh;
     /* background-color: red; */
     display: inline-block;
@@ -198,7 +198,7 @@ ul{
 }
 
 .w-100{
-    width: 100vw;
+    width: 100%;
 }
 
 /* .prova{
@@ -206,3 +206,17 @@ ul{
     height: 100%;
     background-color: blueviolet;
 } */
+
+footer .cont-grigio{
+    text-align: left;
+    height: 8vh;
+}
+
+footer .cont-grigio h1{
+    float: left;
+ 
+}
+
+footer .cont-grigio div{
+    float: right;
+}

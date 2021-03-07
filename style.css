@@ -31,7 +31,7 @@ body{
 /* contenitore-nav */
 .cont-nav{
     width: 60%;
-    height: 5vh;
+    /* height: 5vh; */
     /* background-color: silver; */
     display: inline-block;
     
@@ -39,7 +39,7 @@ body{
 
 .cont-nav-dex{
     width: 38%;
-    height: 5vh;
+    /* height: 5vh; */
     /* background-color: red; */
     display: inline-block;
 }

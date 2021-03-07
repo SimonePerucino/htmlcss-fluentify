@@ -24,7 +24,6 @@ body{
 /* contenitore grigio */
 .cont-grigio{
     width: 79%;
-    height: 10vh;
     padding: 30px;
     background-color: silver;
     text-align: center;
@@ -48,6 +47,7 @@ body{
 /* rimuove i pallini */
 ul{
     list-style-type: none;
+    width: 100vw;
 }
 /* proprietà scelte nav sinistra */
 .cont-nav ul li,
@@ -79,7 +79,7 @@ ul{
     display: table;
     clear: both;
 }
-/* bottono di login */
+/* bottone di login */
 .login-b{
     color: white;
     border-color: white;
@@ -196,3 +196,13 @@ ul{
 .pdg-10px{
     padding: 10px;
 }
+
+.w-100{
+    width: 100vw;
+}
+
+/* .prova{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+} */

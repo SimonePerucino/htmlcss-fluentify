@@ -47,7 +47,7 @@ body{
 /* rimuove i pallini */
 ul{
     list-style-type: none;
-    width: 100vw;
+    width: 100%;
 }
 /* proprietà scelte nav sinistra */
 .cont-nav ul li,
@@ -119,14 +119,12 @@ ul{
 /* contenitore seconda sezione */
 .cont-white{
     width: 79%;
-    height: 70vh;
     background-color: white;
     padding: 30px;
 }
 
 .colonna{
     width: 33.08%;
-    /* height: 400px; */
     display: inline-block;
     /* background-color: blue; */
 }
